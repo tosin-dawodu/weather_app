@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="home">
+      <div id="entryHolder">
+        <div id="date" class="details"></div>
+        <div id="time" class="details"></div>
+        <div id="location" class="details">Lagos, Nigeria</div>
+        <div id="temp" class="details">27 °C</div>
+        <div id="content" class="details"></div>
+      </div>
+      <div class="illustration" id="img-div">
+        <img src="img/landingpage.svg" id="img" alt="weather-img" />
+      </div>
+      <div class="entry">
+        <input
+          type="text"
+          placeholder="Enter ZIP Code Here"
+          id="zip"
+          class="zip-feelings"
+          required
+        />
+        <h1>How do you feel today?</h1>
+        <textarea
+          name="feeling"
+          id="feelings"
+          class="zip-feelings"
+          cols="15"
+          rows="1"
+          placeholder="Happy, Excited..."
+        ></textarea>
+        <button id="generate">Submit</button>
+      </div>
+    </div>
+    <footer>Tosin Dawodu</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
