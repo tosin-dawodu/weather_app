@@ -10,4 +10,4 @@ Using asynchronous JS, I built a weather app that uses web API (that returns wea
 
 - [@tosin-dawodu](https://github.com/tosin-dawodu/)
 
-Click [here](https://td-weather-app.netlify.app/) to view deployed site.
+Click [here](https://td-weather-app.netlify.app/website/index.html) to view deployed site.
